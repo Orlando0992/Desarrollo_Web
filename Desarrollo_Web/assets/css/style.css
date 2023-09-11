@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: aquamarine;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.ingredientes {
+    list-style-position: inside;
+}
+
+.caja {
+    width: 100%;
+
+    height: 500px;
+    background-color: #a8579b;
+    margin: 20px 0 60px 0;
+    padding: 20px 20px 20px 20px;
+
+    background-image: url("../img/paisaje.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    border-radius: 30px;
+}
+
+.caja p {
+    text-align: justify;
+    line-height: 30px;
+    text-decoration:underline;
+    width: 50%;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder House</title>
+    <link rel="shortcut icon" href="assets/img/Bandera.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style_muestra.css">
+</head>
+<body>
+    <div>
+        <h1>Bievenidos</h1>
+        <h2>Sitio de Prueba</h2>
+    </div>
+
+    <hr>
+
+    <p>Codigo de muestra para ver las distintas etiquetas en HTML</p>
+    
+    <!--Lista ordenada-->
+    <ol>
+        <li>Inicio</li>
+        <li>Quienes Somos</li>
+        <li>Servicio</li>
+        <li>Contacto</li>
+        <li>
+            <a href=#enlaces>Ir a enlaces</a>
+        </li>
+    </ol>
+    <!--Lista desordenada-->
+    <ul>
+        <li>Google</li>
+        <li>Linkedin</li>
+        <li>Facebook</li>
+        <li>instagram</li>
+    </ul>
+
+    <hr>
+    <!--Armado de tabla-->
+    <table border="1">
+        <tr>
+            <th>Producto</th>
+            <th>Color</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Polera</td>
+            <td>Blanco</td>
+            <td>$14.990</td>
+        </tr>
+        <tr>
+            <td>Polera</td>
+            <td>Blanco</td>
+            <td>$14.990</td>
+        </tr>
+    </table>
+    
+    <hr>
+    <!--Cuadros para Formulario-->
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required>
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <br>
+        <br>
+        <label for="constraseña">Contraseña</label>
+        <input type="password" id="constraseña" required>
+        <br>
+        <br>
+            <!--Cuadro de consultas-->
+        <label for="mensaje">Cuadro de consultas</label> <br>
+        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+
+
+        <br>
+        <br>
+
+        <hr>
+        <label for="si">
+            <input type="radio" name="si/no" id=""> Si
+        </label>
+        <label for="no">
+            <input type="radio" name="si/no" id="">No
+        </label>
+        <label for="nose">
+            <input type="radio" name="si/no" id="">Nose
+        </label>
+
+        <br>
+        <br>
+        <!--        Seleccion Multiple-->
+        <label for="sicheck">
+            <input type="checkbox" name="sionocheck" id="sicheck"> Si
+        </label>
+        <label for="nocheck">
+            <input type="checkbox" name="sionocheck" id="nocheck">No
+        </label>
+        <label for="nosecheck">
+            <input type="checkbox" name="sionocheck" id="nosecheck">Nose
+        </label>
+
+        <br>
+        <br>
+
+        <select name="" id="">
+            <option disabled selected>Selecciona una ciudad</option>
+            <option>Valdivia</option>
+            <option>Osorno</option>
+            <option>Temuco</option>
+        </select>
+
+        <hr>
+        <p><strong id="enlaces">Enlaces</strong></p>
+        <!--        Enalaces        -->
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.lindekind.com" target="_blank">Linkedin</a>
+        <br>
+        <br>
+
+        <a href="contacto.html">Ir a pagina de Contacto</a>
+    </form>
+
+
+
+    <hr>
+    <p><strong id="enlaces">Logos</strong></p>
+    <img src="assets/img/facebook.png" alt="Facebook" width="100px" title="Fabook">
+    <img src="assets/img/instagram.jfif" alt="Instagram" width="100px" title="Instagram">
+    <img src="assets/img/Github.png" alt="Github" width="100px" title="Github">
+    <hr>
+
+    <p><strong id="enlaces">Video</strong></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7LeYGpi9Xhc?si=_DIxsLkzsI509frg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
