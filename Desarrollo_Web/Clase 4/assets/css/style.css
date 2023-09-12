@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    list-style: none;
+    background-color: #d651e2;
+    padding-block: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.menu__item {
+    display: inline-block;
+    margin-inline: 10px;
+}
+
+.menu__item a {
+    color: black;
+    text-decoration:none;
+}
+
+.menu__item.active a, 
+.menu__item a:hover {
+    text-decoration: underline double;
+}
+
+main {
+    padding: 40px;
+}
+
+/*CODIGO CARTA1*/
+
+.carta1 {
+    width: 30%;
+    height: 600px;
+    background-color: silver;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+.carta1_img {
+    width: 100%;
+}
+
+.carta1_titulo {
+    font-size: 18px;
+}
+
+.carta1_parrafo {
+    font-size: 14px;
+}
+
+.carta1_boton {
+    background-color: #d651e2;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carta1_img,
+.carta1_titulo,
+.carta_parrafo {
+    margin-bottom: 10px;
+}
+
+.carta1_github {
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+/**/
+
+.github {
+    position: fixed;
+    bottom: 10px;
+    right:10px ;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
