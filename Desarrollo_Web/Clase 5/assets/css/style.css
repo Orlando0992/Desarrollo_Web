@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;0,600;0,700;1,800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    background-color: #e0dada;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+
+.logo {
+    width: 80px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.menu__item a{
+    color: #e71d1d;
+    text-decoration: none;
+}
+
+.menu__item.active a {
+    text-decoration: underline;
+}
+
+/*CODIGO MAIN*/
+
+.imagenPrincipal {
+    height: 80vh;
+    background-image: url("../img/valdivia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+
+.imagenPrincipal h2 {
+    color: rgba(223, 228, 213, 0.966);
+    background-color: rgba(90, 0, 0, 0.322);
+    padding-inline: 15px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.imagenPrincipal p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*CODIGO TARJETAS*/
+
+
+.tarjetitas {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+}
+.tarjetita {
+    background-color: #e0dada;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__img {
+    max-width: 100%;
+}
+
+.pie {
+    background-color:#e0dada;
+    text-align: center;
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
